@@ -11,6 +11,7 @@ import ParentFive from './components/incorrect-optimization/ParentFive';
 // import ParentTwo from './components/optimization/ParentTwo';
 // import ParentThree from './components/incorrect-optimization/ParentThree';
 import ParentFour from './components/incorrect-optimization/ParentFour';
+import ParentSix from './components/incorrect-optimization/ParentSix';
 
 
 
@@ -40,7 +41,10 @@ function App() {
     // <ParentFour />
 
     // ! incorrect memo with props reference
-    <ParentFive />
+    // <ParentFive />
+
+    // ! useMemo and userCallback
+    <ParentSix />
   );
 }
 
