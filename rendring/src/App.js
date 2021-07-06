@@ -1,8 +1,9 @@
 import './App.css';
-import UseState from './components/UseState';
+// import UseState from './components/UseState';
+import UseReducer from './components/UseReducer';
 
 function App() {
-  return (<UseState />);
+  return <UseReducer />;
 }
 
 export default App;
