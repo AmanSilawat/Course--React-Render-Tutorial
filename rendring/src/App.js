@@ -7,7 +7,9 @@ import './App.css';
 // import UseReducer from './components/UseReducer';
 // import ObjectUseState from './components/ObjectUseState';
 // import Parent from './components/parent-child/Parent';
-import ParentTwo from './components/optimization/ParentTwo';
+// import ParentTwo from './components/optimization/ParentTwo';
+// import ParentThree from './components/incorrect-optimization/ParentThree';
+import ParentFour from './components/incorrect-optimization/ParentFour';
 
 
 
@@ -28,7 +30,13 @@ function App() {
     // <GrandParent />
 
     // ! memo
-    <ParentTwo />
+    // <ParentTwo />
+
+    // ! incorrect memo with children
+    // <ParentThree />
+
+    // ! incorrect memo with impure component
+    <ParentFour />
   );
 }
 
