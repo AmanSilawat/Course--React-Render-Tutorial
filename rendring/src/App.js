@@ -1,4 +1,5 @@
 import './App.css';
+import ParentFive from './components/incorrect-optimization/ParentFive';
 // import ChildOne from './components/optimization/ChildOne';
 // import GrandParent from './components/optimization/GrandParent';
 // import ParentOne from './components/optimization/ParentOne';
@@ -36,7 +37,10 @@ function App() {
     // <ParentThree />
 
     // ! incorrect memo with impure component
-    <ParentFour />
+    // <ParentFour />
+
+    // ! incorrect memo with props reference
+    <ParentFive />
   );
 }
 
